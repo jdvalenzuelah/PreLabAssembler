@@ -1,4 +1,4 @@
-/* Programa hello.word */
+
 /* Autor: David Valenzuela 	 */
 
 .text
@@ -9,10 +9,9 @@
 main:	
 	ldr r5, =num1
 	ldr r6, =num2
-	ldr r5, [r5]
-	ldr r6, [r6]
 	mul r5, r5, r6
-	bl printf
+	bl puts
+
 	bx lr
 
 
@@ -22,4 +21,6 @@ num1:
 	.word 5
 num2:
 	.word 4
+form:
+	.asciz "%f"
 
