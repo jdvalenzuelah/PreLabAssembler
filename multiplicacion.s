@@ -13,4 +13,8 @@ main:
 	mov R4, #4
 	add R2, R3, R4
 	bl puts
+
+	mov r2, #0
+	mov r3, #0
+	ldmfd sp!, {lr}
 	bx lr
