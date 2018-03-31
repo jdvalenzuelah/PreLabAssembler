@@ -10,12 +10,10 @@ main:
         push {ip, lr}
 
         ldr r0, =string
-        /*ldr r5, adrn1
+        ldr r5, adrn1
         ldr r6, adrn2
-        str r1, [r5]
-        str r2, [r6]*/
-        mov r1, #3
-        mov r2, #3
+        ldr r1, [r5]
+        ldr r2, [r6]
         mul r1, r1, r2
         bl printf
 
