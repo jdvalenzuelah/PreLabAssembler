@@ -11,4 +11,4 @@ main:
 	mov R2, #3
 	mov R3, #3
 	MUL R2, R3, R2
-	printf R2
+	bx printf
