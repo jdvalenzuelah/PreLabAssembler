@@ -13,6 +13,7 @@ main:
 	ldr r6, [r6]
 	mul r5, r5, r6
 	bl printf
+	bx lr
 
 
 .data
