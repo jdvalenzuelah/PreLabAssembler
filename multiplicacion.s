@@ -12,3 +12,4 @@ main:
 	mov R3, #3
 	MUL R2, R3, R2
 	bx R2
+
