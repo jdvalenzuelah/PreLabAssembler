@@ -6,9 +6,9 @@
 .global main
 .type main,%function
 
-main:
+main:	
 	mov R2, #3
 	mov R3, #3
 	MUL R2, R3, R2
-	bx R2
-
+	ldr r4, [r4]
+	bl printf
