@@ -7,8 +7,8 @@
 .type main,%function
 
 main:	
-	ldr r5, num1
-	ldr r6, num2
+	ldr r5, =num1
+	ldr r6, =num2
 	ldr r5, [r5]
 	ldr r6, [r6]
 	mul r5, r5, r6
