@@ -1,6 +1,10 @@
+/* Programa multiplicacion.s*/
+/* David Valenzuela 171001*/
+
+@Datos
 .data
-string: .asciz "El resultado es: %d\n"
-num1: .word 9
+string: .asciz "El resultado es: %d\n" @String a imprimir
+num1: .word 10
 num2: .word 5
 
 .text
