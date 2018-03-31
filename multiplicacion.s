@@ -1,4 +1,3 @@
- .word 0x00000000             /* array_buff[3] */
 .text
 .global main
 .extern printf
