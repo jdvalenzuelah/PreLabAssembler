@@ -16,7 +16,7 @@ main:
         str r2, [r6]*/
         mov r1, #3
         mov r2, #3
-        mul r5, r1, r2
+        mul r1, r1, r2
         bl printf
 
         pop {ip, pc}
