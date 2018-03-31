@@ -16,6 +16,7 @@ main:
 
 
 .data
+.align 2
 num1:
 	.word 5
 num2:
