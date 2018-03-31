@@ -9,8 +9,8 @@ num2: .word 5
 main:
         push {ip, lr}
 
-       /* ldr r0, =string
-        ldr r5, adrn1
+        ldr r0, =string
+        /*ldr r5, adrn1
         ldr r6, adrn2
         str r1, [r5]
         str r2, [r6]*/
