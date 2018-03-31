@@ -13,3 +13,4 @@ main:
 	mov R4, #4
 	add R2, R3, R4
 	bl puts
+	bx lr
