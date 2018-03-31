@@ -12,7 +12,7 @@ main:
         ldr r0, =string
         ldr r5, adrn1
         ldr r6, adrn2
-        mul r5, r5, r6
+        mul r5, [r5], [r6]
         bl printf
 
         pop {ip, pc}
