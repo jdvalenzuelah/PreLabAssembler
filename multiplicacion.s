@@ -20,3 +20,4 @@ num1:
 	.word 5
 num2:
 	.word 4
+
