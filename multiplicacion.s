@@ -10,10 +10,6 @@ main:
 	ldr r5, =num1
 	ldr r6, =num2
 	mul r5, r5, r6
-	bl puts
-
-	bx lr
-
 
 .data
 .align 2
